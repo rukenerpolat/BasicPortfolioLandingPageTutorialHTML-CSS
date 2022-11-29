@@ -164,16 +164,3 @@ a:hover {
   font-size: 0.75rem;
   padding: 20px 0;
 }
-
-@media all and (max-with:500) {
-  .header {
-    display: flex;
-    justify-content: center;
-  }
-
-  #header-left {}
-
-
-
-
-}
