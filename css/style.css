@@ -1,8 +1,11 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 body {
   color: #40514E;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: 'Merriweather', serif;
 }
 
@@ -35,7 +38,7 @@ hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
   width: 4%;
-  margin: 100px auto;
+  margin: 80px auto;
 }
 
 .top-container {
@@ -53,20 +56,11 @@ hr {
 .navbar a {
   margin: 15px;
   padding: 5px;
-  /* border: 1px solid; */
-  /* border-radius: 30px; */
-  /* border-color: #66BFBF; */
 }
 
 .navbar a:hover {
-
   color: #40514E;
   border-bottom: solid 2px;
-  border-color: #40514E;
-
-  /* color: #E4F9F5;
-  background-color: #40514E;
-  border-color: #40514E; */
 }
 
 header {
