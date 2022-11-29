@@ -77,9 +77,9 @@ header {
 
 #header-right img {
   margin: 0;
-  margin-top: 9%;
-  width: 800px;
-  height: 500px;
+  margin-top: 4%;
+  width: 700px;
+  height: ç400px;
 }
 
 .profile {
@@ -163,4 +163,17 @@ a:hover {
   color: #EAF6F6;
   font-size: 0.75rem;
   padding: 20px 0;
+}
+
+@media all and (max-with:500) {
+  .header {
+    display: flex;
+    justify-content: center;
+  }
+
+  #header-left {}
+
+
+
+
 }
